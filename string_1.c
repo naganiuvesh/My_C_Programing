@@ -11,7 +11,6 @@ int main()
     char canNotChange[] = "uvesh";
     puts(canNotChange);
     // canNotChange[] = "nagani";      //   it's not work, you can try.
-    puts(canNotChange);
 
     return 0;   
 }
