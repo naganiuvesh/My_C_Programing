@@ -2,9 +2,21 @@
 int main()
 {
     FILE *fptr;
+    // append
     fptr = fopen("test.txt", "a");
-    char ch[] = "Nagani";
-    fprintf(fptr, "%s", ch);
+    fprintf(fptr, "%c", ' ');
+    fprintf(fptr, "%c", 'n');
+    fprintf(fptr, "%c", 'a');
+    fprintf(fptr, "%c", 'g');
+    fprintf(fptr, "%c", 'a');
+    fprintf(fptr, "%c", 'n');
+    fprintf(fptr, "%c", 'i');
+
+    // OR
+    // char ch[] = " nagani";
+    // fprintf(fptr, "%s", ch);
+
     fclose(fptr);
-    return 0;   
+
+    return 0;
 }
