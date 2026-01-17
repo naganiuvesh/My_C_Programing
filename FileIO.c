@@ -2,6 +2,7 @@
 int main()
 {
     FILE *fptr;
+    // read 
     fptr = fopen("test.txt", "r");
     char ch[50];
     fscanf(fptr, "%s", ch);
@@ -9,3 +10,4 @@ int main()
     fclose(fptr);
     return 0;
 }
+
